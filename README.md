@@ -3,7 +3,7 @@
 <br/><br/>
 ## Installation
 *ScrapeMate* is available as open source node package to all developers to use in projects.
-It can be installed by running the following node command: 
+It can be installed by running the following node command: <br/>
 `npm install ScrapeMate`
 <br/><br/>
 ## Description
