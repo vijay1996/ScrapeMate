@@ -1,0 +1,29 @@
+{
+  "name": "scrapemate",
+  "version": "1.0.0",
+  "description": "Easy web scraper",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js",
+    "add-license": "MIT VijaybhojRajCM"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vijay1996/ScrapeMate.git"
+  },
+  "keywords": [
+    "web",
+    "scraper",
+    "links",
+    "tags"
+  ],
+  "author": "Vijaybhoj Raj C M",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vijay1996/ScrapeMate/issues"
+  },
+  "homepage": "https://github.com/vijay1996/ScrapeMate#readme",
+  "dependencies": {
+    "request": "^2.88.2"
+  }
+}
