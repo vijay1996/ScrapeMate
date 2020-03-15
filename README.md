@@ -9,7 +9,7 @@ It can be installed by running the following node command:
 ## Description
 *ScrapeMate* can be used to scrape different HTML tags and links from any webpage by passing on URL of the target and other optional parameters. It primarily consists of the following functions - <br/>
 **getTags(url)** - To get a list of all the tags used in the HTML code of a target webpage located in the passed on URL.<br/>
-**getLinks(url)** - Used to obtain all the links placed in the target webpage located in the passed on URL.
+**getLinks(url)** - Used to obtain all the links placed in the target webpage located in the passed on URL.<br/>
 **getTagItem(url,tag)** - Used to obtain all the tags passed on to the function present in the target webpage located in the passed on URL.
 <br/><br/>
 ## Usage
