@@ -7,9 +7,9 @@ It can be installed by running the following node command: <br/>
 ```npm install ScrapeMate```
 <br/><br/>
 ## Description
-*ScrapeMate* can be used to scrape different HTML tags and links from any webpage by passing on URL of the target and other optional parameters. It primarily consists of the following functions - <br/>
-**getTags(url)** - To get a list of all the tags used in the HTML code of a target webpage located in the passed on URL.<br/>
-**getLinks(url)** - Used to obtain all the links placed in the target webpage located in the passed on URL.<br/>
+*ScrapeMate* can be used to scrape different HTML tags and links from any webpage by passing on URL of the target and other optional parameters. It primarily consists of the following functions - <br/><br/>
+**getTags(url)** - To get a list of all the tags used in the HTML code of a target webpage located in the passed on URL.<br/><br/>
+**getLinks(url)** - Used to obtain all the links placed in the target webpage located in the passed on URL.<br/><br/>
 **getTagItem(url,tag)** - Used to obtain all the tags passed on to the function present in the target webpage located in the passed on URL.
 <br/><br/>
 ## Usage
@@ -33,7 +33,7 @@ getLinks(uri).then(res => {
 Example for *getTagItem(uri,tag)*
 ```
 let uri = 'https://google.com';
-let tag = 'div'
+let tag = 'div';
 getTagItem(uri, tag).then (res => {
     console.log(res);
     console.log(res.length);
