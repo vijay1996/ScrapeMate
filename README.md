@@ -1,17 +1,17 @@
 # ScrapeMate
 ###### Easy web scraper.
-
+<br/><br/>
 ## Installation
 *ScrapeMate* is available as open source node package to all developers to use in projects.
 It can be installed by running the following node command: 
 'npm install ScrapeMate'
-
+<br/><br/>
 ## Description
-*ScrapeMate* can be used to scrape different HTML tags and links from any webpage by passing on URL of the target and other optional parameters. It primarily consists of the following functions - 
-**getTags(url)** - To get a list of all the tags used in the HTML code of a target webpage located in the passed on URL.
+*ScrapeMate* can be used to scrape different HTML tags and links from any webpage by passing on URL of the target and other optional parameters. It primarily consists of the following functions - <br/>
+**getTags(url)** - To get a list of all the tags used in the HTML code of a target webpage located in the passed on URL.<br/>
 **getLinks(url)** - Used to obtain all the links placed in the target webpage located in the passed on URL.
 **getTagItem(url,tag)** - Used to obtain all the tags passed on to the function present in the target webpage located in the passed on URL.
-
+<br/><br/>
 ## Usage
 Example for *getTags(url)*
 ```
