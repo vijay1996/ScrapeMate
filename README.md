@@ -4,7 +4,7 @@
 ## Installation
 *ScrapeMate* is available as open source node package to all developers to use in projects.
 It can be installed by running the following node command: <br/>
-```npm install ScrapeMate```
+```npm install ScrapeMate --save```
 <br/><br/>
 ## Description
 *ScrapeMate* can be used to scrape different HTML tags and links from any webpage by passing on URL of the target and other optional parameters. It primarily consists of the following functions - <br/><br/>
