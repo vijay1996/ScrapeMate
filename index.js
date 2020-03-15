@@ -168,5 +168,7 @@ getTags(uri).then(res => {
     var result = res;
     console.log(result);
 });
-*/
+module.exports.getTags = getTags;
+module.exports.getLinks = getLinks;
+module.exports.getTagItem = getTagItem;
 
