@@ -151,24 +151,6 @@ async function getTagItem(uri, tag) {
     return tags;
 }
 
-
-
-let uri = 'https://google.com';
-
-getTagItem(uri, 'div').then (res => {
-    console.log(res);
-    console.log(res.length);
-});
-getLinks(uri).then(res => {
-    console.log(res);
-    console.log(res.length);
-})
-
-getTags(uri).then(res => {
-    var result = res;
-    console.log(result);
-});
 module.exports.getTags = getTags;
 module.exports.getLinks = getLinks;
 module.exports.getTagItem = getTagItem;
-
