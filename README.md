@@ -15,11 +15,11 @@ It can be installed by running the following node command: <br/>
 ## Usage
 
 Import scrapemate to your javascript file after installing ScrapeMate
-```
+```javascript
 let scrapemate = require('scrapemate');
 ```
 Example for *getTags(url)*
-```
+```javascript
 let uri = 'https://google.com';
 scrapemate.getTags(uri).then(res => {
     var result = res;
@@ -27,7 +27,7 @@ scrapemate.getTags(uri).then(res => {
 });
 ```
 Example for *getLinks(url)*
-```
+```javascript
 let uri = 'https://google.com';
 scrapemate.getLinks(uri).then(res => {
     console.log(res);
@@ -36,7 +36,7 @@ scrapemate.getLinks(uri).then(res => {
 ``` 
 
 Example for *getTagItem(uri,tag)*
-```
+```javascript
 let uri = 'https://google.com';
 let tag = 'div';
 scrapemate.getTagItem(uri, tag).then (res => {
